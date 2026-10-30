@@ -15,6 +15,7 @@
 	"images": {
 		"binding": "IMAGES",
 	},
+	"routes": [{ "pattern": "mail.learnflow.com.br", "custom_domain": true }],
 	"services": [
 		{
 			"binding": "WORKER_SELF_REFERENCE",
@@ -76,6 +77,7 @@
 		{
 			"binding": "DB",
 			"database_name": "mailflare",
+			"database_id": "4926fa8e-03eb-44bb-9924-05371be24348",
 			"migrations_dir": "drizzle/migrations",
 		},
 	],
